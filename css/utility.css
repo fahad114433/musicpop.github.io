@@ -1,0 +1,68 @@
+.border{
+    border: 2px solid rgb(30, 0, 255);
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+
+}
+.invert{
+    filter: invert(1);
+}
+
+.bg-grey{
+    background-color: #1f1f1f;
+}
+ 
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 11px;
+}
+
+
+
+/* Applies custom styling to the scrollbar for most modern browsers */
+::-webkit-scrollbar {
+    width: 12px;             /* Width of the scrollbar */
+    height: 12px;            /* Height for horizontal scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;     /* Dark background for the scrollbar track */
+    border-radius: 10px;     /* Rounded edges for the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #444;        /* Darker gray color for the scrollbar handle */
+    border-radius: 10px;     /* Rounded edges for the scrollbar handle */
+    border: 2px solid #1a1a1a; /* Adds spacing between the track and thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;        /* Slightly lighter shade on hover */
+  }
+  
+  /* Optional styles for Firefox */
+  * {
+    scrollbar-width: thin;               /* Thin scrollbar */
+    scrollbar-color: #444 #1a1a1a;       /* Custom thumb and track colors */
+  }
+  
